@@ -59,4 +59,3 @@ CREATE TABLE MovimentosVenda (
     FOREIGN KEY (IDPessoaFisica) REFERENCES PessoasFisicas(CPF),
     FOREIGN KEY (IDProduto) REFERENCES Produtos(ID)
 );
-
